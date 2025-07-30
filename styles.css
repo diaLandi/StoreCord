@@ -1,0 +1,134 @@
+.menu_button {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+      user-select: none;
+      position: fixed;
+      top: 30px;
+      left: 20px;
+}
+.menu_button:hover {
+    transform: scale(1.05);
+}
+.menu_button:active {
+    transform: scale(0.95);
+}
+.menu_button img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+
+
+
+
+.logo img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+.logo {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+      user-select: none;
+      position: fixed;
+      top: 20px;
+      right: 20px;
+}
+.logo:hover {
+    transform: scale(1.05);
+}
+.logo:active {
+    transform: scale(0.95);
+}
+
+
+
+
+
+.shop_button img {
+    width: 110%;
+    height: 110%;
+    object-fit: contain;
+}
+.shop_button {
+      width: 110px;
+      height: 50px;
+      border-radius: 360px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+      user-select: none;
+      position: fixed;
+      top: 30px;
+      right: 105px;
+}
+.shop_button:hover {
+    transform: scale(1.05);
+}
+.shop_button:active {
+    transform: scale(0.95);
+}
+
+
+
+
+.shopping_cart_button img {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+}
+.shopping_cart_button {
+      width: 90px;
+      height: 50px;
+      border-radius: 360px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+      user-select: none;
+      position: fixed;
+      top: 30px;
+      right: 230px;
+}
+.shopping_cart_button:hover {
+    transform: scale(1.05);
+}
+.shopping_cart_button:active {
+    transform: scale(0.95);
+}
